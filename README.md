@@ -428,27 +428,6 @@ We already deployed the model to the web for demonstration, and our xray detecti
 (b)https://raw.githubusercontent.com/SGNovice/Disease-detection-using-chest-xrays/master/images/xrayeyes.png
 - XrayEyes Web App Demo https://xrayeyes.onrender.com
 
-## Collaborators
-Members | GitHub Handle
------------- | -------------
-Victor Mawusi Ayi | https://github.com/ayivima
-Anju Mercian | https://github.com/amalphonse
-George Christopoulos | https://github.com/geochri
-Ashish Bairwa  | https://github.com/ashishbairwa
-Pooja Vinod | https://github.com/poojavinod100 
-Ingus Terbets | https://github.com/ingus-t
-Alexander Villasoto | https://github.com/anvillasoto
-Olivia Milgrom | https://github.com/OliviaMil
-Tuan Hung Truong | https://github.com/tuanhung94
-Marwa Qabeel | https://github.com/MarwaQabeel
-Shudipto Trafder | http://github.com/iamsdt
-Aarthi Alagammai | https://github.com/AarthiAlagammai
-Agata | https://github.com/agatagruza
-Kapil Chandorikar | https://github.com/kapilchandorikar/
-Archit | https://github.com/gargarchit
-Cibaca Khandelwal | https://github.com/cibaca
-Oudarjya Sen Sarma | https://github.com/oudarjya718
-Rosa Paccotacya | https://github.com/RosePY
 
 ## References
 
