@@ -398,9 +398,17 @@ After the data collection phase, model file for the respective dataset would be 
  - ***Development of prototype***
  After measuring the capabilities of the handheld device, application will be able to switch the route and methodology for processing input data. MobileNets for PyTorch, being an on-device standalone analysis software can work independently of an internet connection if the device is capable to process a mobile net. Otherwise application would choose to switch to an alternative approach for processing data. X-Ray image data is analysed with the help of the trained model in the ANN to predict the probablity of having a certain chest disease in the test data presented by the user. After the prediction, diagnosis reports were further forwarded to pulmonologists for further clarification. In the meantime, user get connected to a group of expert medical practitioners avialable online, who can provide a real-time opinion  for accurate prediction of the disease and affirm or disagree with the results provided by the prediction and accordingly provide prescription on demand.
  
+ - ***Workflow at a glance***
+1. Application provide a signup form and authenticate a user via aadhar-uid records to prevent duplicate submissions.
+2. After signup, user would be redirected to a view were an upload form would be provided.
+3. Image uploaded via form would be processed either by the device offline or by the server which would purely based on the capability of the device and strength of the network.
+4. Results generated would be propogated to a pool of dedicated medical team with encryption via differential privacy.
+5. According to results and prediction user would recieve hospital recommendations, temporary remedies, emergency advices and forum invitation link.
+6. User can track their records on the dashboard and recieve further notifications on the main screen.
+7. Facility of E-prescription would be available for mild cases.
+8. An integrated medicine reminder would fetch the details of medicines and will remind about them on time.
+
  ![frame](https://i.imgur.com/eOOWwQs.jpg)
- - *Workflow:*
-1. Application 
 
 ### Extension - Raspberry Pi Project
 Currently, the project is limited to the public domain dataset and to the best-effort analyses of health records via 
