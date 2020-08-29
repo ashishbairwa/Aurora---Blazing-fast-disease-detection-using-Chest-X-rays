@@ -401,7 +401,7 @@ After the data collection phase, model file for the respective dataset would be 
  - ***Development of prototype***
  After measuring the capabilities of the handheld device, application will be able to switch the route and methodology for processing input data. MobileNets for PyTorch, being an on-device standalone analysis software can work independently of an internet connection if the device is capable to process a mobile net. Otherwise application would choose to switch to an alternative approach for processing data. X-Ray image data is analysed with the help of the trained model in the ANN to predict the probablity of having a certain chest disease in the test data presented by the user. After the prediction, diagnosis reports were further forwarded to pulmonologists for further clarification. In the meantime, user get connected to a group of expert medical practitioners avialable online, who can provide a real-time opinion  for accurate prediction of the disease and affirm or disagree with the results provided by the prediction and accordingly provide prescription on demand.
  
- ![frame](https://imgur.com/a/gyMnayl)
+ ![frame](https://i.imgur.com/eOOWwQs.jpg)
  - *Workflow:*
 1. Application 
 
