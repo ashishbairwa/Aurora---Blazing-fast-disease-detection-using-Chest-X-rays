@@ -391,11 +391,21 @@ inaccurate classifications.
 Our project adds emphasis to the immense potential to be harnessed from the intersection of Deep Learning and Medical Diagnostics. The outcomes achieved within the short span of time were commendable. We also appreciated the technicalities of medical imaging, and more importantly, the challenges with automated diagnosis leveraging analysis of x-ray images by deep neural networks.
 Our goal is to build a full system that leverages federated learning and full blown secure and privacy preserving technologies, to make smart diagnosis accessible in the browser, on phones and tablets - the web interface is up and functional, while the mobile platforms are underway. We have also designed a roadmap which will allow us to improve the overall quality and accuracy of our system on available datasets for chest X-rays. Ultimately, we hope to build on this project for other diagnoses outside our current target of 14 lung conditions.
 
-## Future Work
+## Application Development
 The team would like to extend the project to make it suitable for use in institutions and facilities, where aid to diagnosis 
 is of utmost importance.
 
-### Raspberry Pi Project
+### Application Pipeline
+After the data collection phase, model file for the respective dataset would be generated. A mobile application is developed in flutter using firebase and flask server at the backend and dart for the front end. Furthermore, following functionalities' namely, patient profile, X-ray analyser (with noise reduction filters), emergency reporting, nearby hospital recommendation and respective forums for particular disease are added. The input to the application is an uploaded X-Ray taken via patient's mobile device. Input is further forwarded to the flask server for further processing.
+
+ - ***Development of prototype***
+ After measuring the capabilities of the handheld device, application will be able to switch the route and methodology for processing input data. MobileNets for PyTorch, being an on-device standalone analysis software can work independently of an internet connection if the device is capable to process a mobile net. Otherwise application would choose to switch to an alternative approach for processing data. X-Ray image data is analysed with the help of the trained model in the ANN to predict the probablity of having a certain chest disease in the test data presented by the user. After the prediction, diagnosis reports were further forwarded to pulmonologists for further clarification. In the meantime, user get connected to a group of expert medical practitioners avialable online, who can provide a real-time opinion  for accurate prediction of the disease and affirm or disagree with the results provided by the prediction and accordingly provide prescription on demand.
+ 
+ ![frame](https://imgur.com/a/gyMnayl)
+ - *Workflow:*
+1. Application 
+
+### Extension - Raspberry Pi Project
 Currently, the project is limited to the public domain dataset and to the best-effort analyses of health records via 
 natural language processing. The idea here is to improve the current accuracy of the model by augmenting it 
 with real-world datasets which are available from medical institutions. Due to the sensitive nature 
@@ -415,11 +425,6 @@ PySyft’s secure model parameter aggregation, leveraging mathematical technique
 information so trusted aggregators cannot glean on raw gradients sent by federated nodes. We will need the 
 full cooperation of hospitals, clinics and radiologic facilities who have quality datasets to join our planned 
 IoT-enabled ecosystem for this use case. In return, we will enable an intuitive interface to help doctors in diagnosis.
-
-### Browser and mobile Access
-We already deployed the model to the web for demonstration, and our xray detection service is accessible at https://xrayeyes.onrender.com. We have also started work on the apps for android, iOS and the new ipadOS. Additionally, these mobile apps may be used in the home, and we have designed functionality that can link patients to nearby clinics or hospitals. Mocks of this is shown below:
-<img src="https://raw.githubusercontent.com/SGNovice/Disease-detection-using-chest-xrays/master/images/xrayeyes.png"/>
-
 
 ## Appendix
 - Data Exploration Notebook https://colab.research.google.com/drive/1nub56-UfvlovgWP7oSC5850HdNIbOFQu 
