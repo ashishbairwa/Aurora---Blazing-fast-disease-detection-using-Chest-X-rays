@@ -7,8 +7,6 @@ comprises 108,948 frontal view X-ray images of
 32,717 unique patients, and 14 disease labels which had been text-mined from associated radiological reports using 
 natural language processing.
 
-<img src="https://raw.githubusercontent.com/SGNovice/Disease-detection-using-chest-xrays/master/images/xrayeyes2.png"/>
-
 ## Abstract
 Chest X-Rays are considerably reliable radiobiological imprints of patients, which are widely used to diagnose an array 
 of common diseases affecting organs within the chest. For too long, vast accumulations of image data and their 
@@ -426,13 +424,15 @@ information so trusted aggregators cannot glean on raw gradients sent by federat
 full cooperation of hospitals, clinics and radiologic facilities who have quality datasets to join our planned 
 IoT-enabled ecosystem for this use case. In return, we will enable an intuitive interface to help doctors in diagnosis.
 
+### Prototype Mockups
+Here are some mockups of the application in development
+![Imgur](https://i.imgur.com/HsHAP3p.png)
+<img src="https://raw.githubusercontent.com/SGNovice/Disease-detection-using-chest-xrays/master/images/xrayeyes2.png"/>
+
+
 ## Appendix
 - Data Exploration Notebook https://colab.research.google.com/drive/1nub56-UfvlovgWP7oSC5850HdNIbOFQu 
 - Model Encryptor https://github.com/ayivima/AI-SURFS/blob/master/ModelEncryptor/encryptor.py
-- Mobile Platform UI Mocks (a)https://raw.githubusercontent.com/SGNovice/Disease-detection-using-chest-xrays/master/images/xrayeyes2.png
-(b)https://raw.githubusercontent.com/SGNovice/Disease-detection-using-chest-xrays/master/images/xrayeyes.png
-- XrayEyes Web App Demo https://xrayeyes.onrender.com
-
 
 ## References
 
